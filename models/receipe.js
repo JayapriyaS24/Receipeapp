@@ -10,7 +10,7 @@ const receipeSchema = new mongoose.Schema({
         type: Date,
         default: Date.now 
     },
-    updateddAt: {
+    updatedAt: {
         type: Date,
         default: Date.now 
     }
